@@ -1,12 +1,50 @@
-## Hi there 👋
+![image](https://github.com/All-Bareumi/.github/assets/52996753/0b894a61-be3d-4d67-b2ce-240e57b77250)
 
-<!--
+### 프로젝트 소개
 
-**Here are some ideas to get you started:**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+#### 1. 프로젝트 주제
+5~7세 어린이 대상 발음 교정 학습 어플리케이션
+
+#### 2. 제안배경
+- 시각 정보와 청각 정보의 상호작용인 맥거크 효과
+- 언어치료사의 시각자료 활용 중요성
+- 코로나19로 인한 시각 정보 부족 문제
+- 발음 훈련의 반복학습과 흥미 요소 중요성
+- 세계 보건 기구(WHO)의 '질병 X' 발표
+
+#### 3. 팀 소개
+- 팀명: 너구리
+- 팀원:
+  - 20185999 임태규 (백엔드 개발, 프론트엔드 보조)
+  - 20193418 이하윤 (인공지능 모델 개발, 백엔드 개발 보조)
+  - 20201980 강민기 (프론트엔드 개발, 백엔드 개발 보조)
+
+#### 4. 프로젝트 소개
+**주요 기능**
+- 문장 발음 학습 및 입모양 제시
+- 카테고리별 회화 위주 문장 제공
+- 학습자료의 입모양과 실제 입모양 비교 확인
+- 학습자 커스텀을 위한 OCR과 TTS 활용
+- 입모양 아바타 선택
+- Wav2Lip를 활용한 입모양 아바타 생성
+- 학습자 발음 분석 및 레벨 설정
+- 보상 시스템을 통한 흥미 유발
+- 전래동화 들려주기와 입모양 제시
+
+#### 5. 목표(기여)
+- 인공지능을 활용한 학습에 적합한 시청각 자료 생성
+- 발음 교정이 필요한 어린이들의 발음 훈련 보조
+- 흥미 유발을 통한 꾸준한 학습 도모
+
+#### 6. 차별성
+- 다양한 학습 자료 제공 및 입모양 제시
+- 유사 서비스와의 비교를 통한 차별화
+
+#### 7. 개발 및 구현
+**주요 기술**
+- Lip-Sync: Wav2Lip
+- TTS & STT: Google API 활용 예정
+- OCR 및 발음 분석 기술 활용
+- Node.js 및 Flask 서버로 클라이언트와 연결
+- MongoDB 데이터베이스 활용
