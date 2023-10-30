@@ -15,13 +15,13 @@ Group Project - Team RTA(너구리)
   - [Introduction](#introduction)
     - [Project Topic](#project-topic)
     - [Proposal Background](#proposal-background)
-    - [Project Goal & Contribution](#project-goal&contribution)
+    - [Project Goal & Contribution](#project-goal-\&-contribution)
   - [Representative Screenshots](#representative-screenshots)
-  - [Techonology](#technology)
+  - [Implementation Details](#implementation-details)
+    - [Technology Used](#technology-used)
     - [Code](#code)
     - [Link](#link)
     - [Design Pattern](#design-pattern)
-    - 
 
 
 ## Introduction
@@ -30,17 +30,37 @@ Pronunciation correction learning application for children aged 5 to 7
 ### Proposal Background
 - McGurk effect, the interaction between visual and auditory information
 - The importance of speech therapists’ use of visual materials
-- Problem with lack of visual information due to COVID-19
+- Problem with lack of visual(mouth) information due to COVID-19
 - The importance of repetitive learning and interest elements in pronunciation training
 - World Health Organization (WHO) announces ‘Disease X’
 ### Project Goal & Contribution
-- Creation of audio-visual materials suitable for learning using artificial intelligence
-- Assist with pronunciation training for children who need pronunciation correction
-- Promote continuous learning by arousing interest
+- Artificial intelligence technology creates audio-visual materials appropriate for learning and helps children who have difficulty with correct pronunciation to repeatedly practice pronunciation.
+- To ensure children's continuous learning, we apply elements that can stimulate interest, such as setting rewards and giving stars based on scores, to help children ultimately complete training.
+- Creation of a lip sync model specialized for Korean based on the lip sync model (Wav2Lip) implemented for existing foreign languages.
 
 ## Representative Screenshots
-![image](https://github.com/All-Bareumi/.github/assets/52996753/0b894a61-be3d-4d67-b2ce-240e57b77250)
 
+| <img src="https://github.com/All-Bareumi/.github/assets/81232059/856105b6-fe17-407e-b4be-89c0af0c6ec9" width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/a49c9426-4905-4162-acf5-97099b3cb97d"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/c437b47b-307f-412e-a77a-471aefe6fbe2"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/8035d34c-40d9-45b8-80b0-68fe2566318a"  width="200px"/> |
+| :--------------------------------------------------------------------- | :--------------------------------------------------------------------- | :-------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| <img src="https://github.com/All-Bareumi/.github/assets/81232059/888ce4c2-3e37-496d-a23c-dbcee730fb5d" width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/c6dff415-ed0f-4e76-837e-c63fdc07c75a"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/8ca9347e-0382-4b74-a5c0-3f139ce49463"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/9d77860a-18ec-414e-91c9-199cb5a3b65e"  width="200px"/> |
+| <img src="https://github.com/All-Bareumi/.github/assets/81232059/680b4f42-0bc2-42ac-88fc-acc1c015742f" width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/1aa7103c-35db-45da-a6d3-e1f9849a37cb"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/9025f2e4-7f85-41e9-bd15-4cc9fd80f2bb"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/a7d8ce2b-1f51-43ff-9806-996c74f008d9"  width="200px"/> |
+
+## Implementation Details
+### Techonolgy Used
+#### Service Architecture
+<img width="450" alt="image" src="https://github.com/All-Bareumi/.github/assets/81232059/04873665-5f6e-409a-8a26-74f82dd6e756">
+
+- Lip-Sync: Wav2Lip
+- TTS & STT: Google API
+- OCR & ETRI(Electronics and Telecommunications Research Institute) Pronunciation Evaluation API
+- Node.js & Flask Server
+- MongoDB
+- Flutter
+
+### Code
+### Design Pattern
+
+---
 ## In Korean
 
 ### 1. 프로젝트 주제
