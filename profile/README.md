@@ -15,14 +15,13 @@ Group Project - Team RTA(너구리)
   - [Introduction](#introduction)
     - [Project Topic](#project-topic)
     - [Proposal Background](#proposal-background)
-    - [Project Goal & Contribution](#project-goal-\&-contribution)
+    - [Project Goal & Contribution](#project-goal--contribution)
   - [Representative Screenshots](#representative-screenshots)
   - [Implementation Details](#implementation-details)
-    - [Technology Used](#technology-used)
+    - [Service Architecture](#service-architecture)
+    - [Technology Used](#technology-used) 
     - [Code](#code)
-    - [Link](#link)
-    - [Design Pattern](#design-pattern)
-
+- [In Korean](#in-korean)
 
 ## Introduction
 ### Project Topic
@@ -46,10 +45,10 @@ Pronunciation correction learning application for children aged 5 to 7
 | <img src="https://github.com/All-Bareumi/.github/assets/81232059/680b4f42-0bc2-42ac-88fc-acc1c015742f" width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/1aa7103c-35db-45da-a6d3-e1f9849a37cb"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/9025f2e4-7f85-41e9-bd15-4cc9fd80f2bb"  width="200px"/> | <img src="https://github.com/All-Bareumi/.github/assets/81232059/a7d8ce2b-1f51-43ff-9806-996c74f008d9"  width="200px"/> |
 
 ## Implementation Details
-### Techonolgy Used
-#### Service Architecture
+### Service Architecture
 <img width="450" alt="image" src="https://github.com/All-Bareumi/.github/assets/81232059/04873665-5f6e-409a-8a26-74f82dd6e756">
 
+### Techonolgy Used
 - Lip-Sync: Wav2Lip
 - TTS & STT: Google API
 - OCR & ETRI(Electronics and Telecommunications Research Institute) Pronunciation Evaluation API
@@ -58,9 +57,12 @@ Pronunciation correction learning application for children aged 5 to 7
 - Flutter
 
 ### Code
-### Design Pattern
+- [AI](https://github.com/All-Bareumi/All-Bareumi_AI)
+- [BE](https://github.com/All-Bareumi/All-Bareumi_BE)
+- [FE](https://github.com/All-Bareumi/All-Bareumi_FE)
 
 ---
+
 ## In Korean
 
 ### 1. 프로젝트 주제
